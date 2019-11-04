@@ -1,0 +1,157 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lato:300,400,600,700');*/
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+    font-family: Arial;
+}
+
+body {
+    height: 100vh;
+    background: #f9f9f9;
+}
+
+#chart, .chart-box {
+    padding-top: 20px;
+    padding-left: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 22px 35px -16px rgba(0,0,0, 0.1);
+}
+#chart1, .chart-box {
+    padding-top: 20px;
+    padding-left: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 22px 35px -16px rgba(0,0,0, 0.1);
+}
+#chart2, .chart-box {
+    padding-top: 20px;
+    padding-left: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 22px 35px -16px rgba(0,0,0, 0.1);
+}
+#chart3, .chart-box {
+    padding-top: 20px;
+    padding-left: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 22px 35px -16px rgba(0,0,0, 0.1);
+}
+#chart4, .chart-box {
+    padding-top: 20px;
+    padding-left: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 22px 35px -16px rgba(0,0,0, 0.1);
+}
+
+select.flat-select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #008FFB url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'60px\' height=\'60px\'><polyline fill=\'white\' points=\'46.139,15.518 25.166,36.49 4.193,15.519\'/></svg>") no-repeat scroll right 2px top 9px / 16px 16px;
+    border: 0 none;
+    border-radius: 3px;
+    color: rgb(83, 81, 81);
+    font-family: arial,tahoma;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0 none;
+    height: 33px;
+    padding: 5px 20px 5px 10px;
+    text-align: center;
+    text-indent: 0.01px;
+    text-overflow: "";
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease 0s;
+    width: auto;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+  }
+select.flat-select:focus, select.flat-select:hover {
+    border: 0;
+    outline: 0;
+}
+.header {
+    text-align: center;
+    /* padding: 30px; */
+    font-size: 32px;
+    font-family: "Pacifico";
+    text-shadow: 0 2px 2px #3c77b3;
+    padding: 50px;
+}
+
+.apexcharts-canvas {
+    margin: 0 auto;
+}
+
+#html {
+    display: none;
+}
+/* /-------------------/ */
+
+svg {
+    font-family: Sans-Serif, Arial;
+}
+.line {
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis path {
+  stroke: black;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.title-text {
+  font-size: 12px;
+}
+
+/* //////////////////////////////////////// */
+.bar{
+	fill: #28C587;
+}
+/* Lighten the axis lines */
+#x-axis path,#y-axis line, #y-axis path{
+	stroke: #666;
+}
+/* Remove the tick marks on the x-axis */
+#x-axis .tick line{
+	visibility: hidden;
+}
+
+text{
+	fill: #666;
+	font-size: 12px;
+}
+
+#x-axis text {
+	font-weight: 600;
+}
+
+/* ///////////////////// */
+
+
+.line {
+    fill: none;
+    stroke-width: 3px;
+  }
+  
+  .overlay {
+    fill: none;
+    pointer-events: all;
+  }
+  
+  .hover-line {
+    stroke: #B74779;
+    stroke-width: 2px;
+    stroke-dasharray: 3,3;
+  }
